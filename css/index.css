@@ -124,6 +124,11 @@ h4 {
     padding: 20px;
     margin: 20px;
 }
+.plantpic { transition: transform 0.5s; }
+.plantpic:hover { transform: scale(0.75); }
+
+.dogpic { transition: transform 0.5s; }
+.dogpic:hover { transform: scale(0.75); }
 
 @media only screen and (max-width:600px){
     .flexContainer {
@@ -139,3 +144,4 @@ h4 {
         grid-template-areas: "plantpic plant"
                              "dogpic dog";
                             }
+                        }
